@@ -1,0 +1,9 @@
+steps to update
+
+make new project in 3.1
+
+update setting files to use 3.1
+
+copy required new code for startup
+
+update any required nuget packages

@@ -1,0 +1,1 @@
+git log --name-only bb1385355443d90a67cd10b14e4d365e2e2bc2f0..HEAD | grep -v '^commit ' | grep -v '^Date:' | grep -v '^Merge:' | sed -e 's/\    \[/[/' > manifest.log

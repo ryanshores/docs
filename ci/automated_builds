@@ -1,0 +1,3 @@
+use pull requests triggers from cloudfront events
+
+or use code pipeline to trigger build
