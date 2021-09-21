@@ -1,3 +1,19 @@
 use pull requests triggers from cloudfront events
 
 or use code pipeline to trigger build
+
+pipeline will build for every merge to main
+and
+pull request trigger will set requirement for using pull request
+	or can we set a rule that main cannot be updated by users
+		we can set rule but it would require resetting everyones git permission to use the policy we setup to restrict actions on main branch
+	
+for setting up the lambda to trigger build on pull request
+need a cloudwatch event trigger on pr created and updated
+that will trigger the codebuild lambda that gets a version/alias with the correct env variables
+
+for commenting we need another trigger
+
+the starting lambda has additional env params that the result looks for
+the rule runs for every build and if the build was started by the lambda than it comments
+so we can leave this or chagne it to only run on supported build
