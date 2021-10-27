@@ -1,0 +1,4 @@
+git branch -r --merged | egrep -v "(^\*|main)" | sed 's/origin\///' 
+
+
+git branch -r --merged | egrep -v "(^\*|main)" | sed 's/origin\///' | xargs -n 1 git push origin --delete
