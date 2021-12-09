@@ -37,7 +37,7 @@ Intall SSHFS
 
 [Mac Install](https://osxfuse.github.io)
 
-[Inztructions](https://code.visualstudio.com/docs/remote/troubleshooting#_using-sshfs-to-access-files-on-your-remote-host)
+[Instructions](https://code.visualstudio.com/docs/remote/troubleshooting#_using-sshfs-to-access-files-on-your-remote-host)
 
 
 
